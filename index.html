@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
-<body>
+<body class="no-scroll">
     <div class="header">
         <div class="container">
             <div class="header__inner">
@@ -273,5 +273,55 @@
 
         </div>
     </footer>
+
+
+
+    <!--modals-->
+    <div class="modal">
+        <div class="modal__dialog">
+            
+            <button class="modal__close" type="button">
+                <img src="images/button__close.svg" alt="Close">
+            </button>
+
+
+            <div class="modal__work">
+            
+                <div class="modal__work__preview">
+                    <img class="modal__work__photo" src="https://place-hold.it/790x780" alt="">
+                </div><!--modal__work__preview-->
+
+
+                <div class="modal__work__content">
+                    <div class="modal__work__header">
+                        <h3 class="modal__work__title">Projeck title</h3>
+                        <div class="modal__work__info">category<span class="modal__work__info__divider">|</span> 2022</div>
+                    </div>
+                    <div class="modal__work__client">
+                        <div class="modal__work__client__title">Client:</div>
+                        <div class="modal__work__client__company">Agency</div>
+                    </div>
+                    <div class="modal__work__text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores assumenda quia hic iure sapiente similique nam corrupti sit fuga, numquam laborum atque, dolorem deserunt dolore magnam, quasi repellat nesciunt nemo!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores assumenda quia hic iure sapiente similique nam corrupti sit fuga, numquam laborum atque, dolorem deserunt dolore magnam, quasi repellat nesciunt nemo!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores assumenda quia hic iure sapiente similique nam corrupti sit fuga, numquam laborum atque, dolorem deserunt dolore magnam, quasi repellat nesciunt nemo!</p>
+                        
+                    </div>
+                    <div class="modal__work__footer">
+                        <button class="modal__work__btn modal__work__btn--prev" type="button">
+                            <img src="images/arrow.svg" id="btn__prev" height="12px" alt="">
+                            Previews</button>
+                        <button class="modal__work__btn modal__work__btn--next" type="button">
+                            Next
+                            <img src="images/arrow.svg" id="btn__next" height="12px" alt="">
+                        </button>
+                    </div>    
+
+                </div><!--modal__work__content-->
+            </div>
+           
+
+        </div><!--modal__dialog-->
+    </div><!--modal-->
 </body>
 </html>
